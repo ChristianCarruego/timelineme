@@ -150,7 +150,7 @@ public class PersonaDaoJdbcImpl implements PersonaDao {
 		if (username == null) {
 			throw new IllegalArgumentException(
 					"El nombre de usuario no debe ser nulo");
-		}
+		}		
 		Persona persona = null;
 		try {
 			Connection c = ConnectionProvider.getInstance().getConnection();

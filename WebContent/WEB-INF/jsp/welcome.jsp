@@ -8,5 +8,6 @@
 </head>
 <body>
 	<p>${message}</p>
+	<a href="../perfil/inicio.do">Probar la sesión</a>
 </body>
 </html>
